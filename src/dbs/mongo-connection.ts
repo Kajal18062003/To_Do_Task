@@ -11,6 +11,7 @@ export const connectDB = async():Promise <void> =>{
     return
  }
 
+ console.log("hii")
  try{
     await mongoose.connect(MONGOURL)
     isConntected = true;
